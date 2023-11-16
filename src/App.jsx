@@ -1,11 +1,11 @@
 import "./App.css";
+import Cambiar from "./components/Cambiar";
 
-import Saludo from "./components/Saludo";
 
 export default function App() {
   return (
     <>
-      <Saludo />
+      <Cambiar />
     </>
   );
 }
