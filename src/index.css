@@ -1,0 +1,29 @@
+#root {
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100vh;
+  width:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+button, div, input{
+  margin:1rem;
+}
+
+.light{
+  font-family:cursive;
+  background-color: beige;
+  color:#666
+
+}
+.dark{
+  background-color: #666;
+  color:beige;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
